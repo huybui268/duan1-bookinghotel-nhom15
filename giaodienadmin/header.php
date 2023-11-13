@@ -1,4 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+<span style="font-family: verdana, geneva, sans-serif;">
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <title>Dự Án 1</title>
+    <!-- <link rel="stylesheet" href="css/css.css" /> -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 *{
   margin: 0;
   padding: 0;
@@ -27,8 +35,15 @@ nav{
   background: #fff;
 }
 .navbar{
-  width: 100%;
-  margin: 0 auto;
+  width: 30%;
+  /* margin: 0 auto; */
+  
+  padding: 25px 10px 150px 50px;
+
+  background: rgb(47, 71, 158);
+}
+ul{
+ 
 }
 
 .logo{
@@ -45,6 +60,7 @@ nav{
 .logo h1{
   margin-left: 1rem;
   text-transform: uppercase;
+  color: white;
 }
 
 ul{
@@ -55,7 +71,7 @@ li{
 }
 li a{
   font-size: 16px;
-  color: rgb(85, 83, 83);
+  color: white;
 }
 .nav-item{
 
@@ -73,7 +89,10 @@ nav i{
 
 /* Main Section */
 .main{
+  padding-top: 120px;
   width: 100%;
+ padding-left:50px;
+  
 }
 .main-top{
   width: 100%;
@@ -186,3 +205,30 @@ h1{
   border: 2px solid blueviolet;
   transition: 0.4s;
 }
+.row{
+  display:flex;
+  width:40%;
+ 
+}
+
+.mb{
+    margin-bottom:30px;
+}
+.mb10{
+    margin-bottom:10px; 
+}
+.mr20{
+ color: black;
+}
+    </style>
+    <!-- Font Awesome Cdn Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    
+  </head>
+
+  <body>  
+    <div class="container">
+  
+      </body>
+</html>
+    
